@@ -7,6 +7,7 @@ packages:
   - jq
   - java-11-amazon-corretto-headless
   - nc
+  - wget
 
 mounts:
   - [ xvdb, /zookeeper/data, "xfs", "defaults,noatime", "0", "0" ]
